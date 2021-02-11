@@ -81,14 +81,15 @@ function Image({ url, set, updateImage, deleteImage }) {
 
   return (
     <figure>
+      <div className="memeCard">
       <img
         src={url.url === "default" ? defaultUrl : url.url}
         alt=""
-        className="memeCard"
         onClick={() => {
           if (url.url !== "default") set(url.url);
         }}
       />
+      </div>
       <figcaption>
         {editState && (
           <EditForm
@@ -104,9 +105,9 @@ function Image({ url, set, updateImage, deleteImage }) {
           <div className="d-flex flex-row justify-content-between align-items-center">
             <div className="d-flex flex-row ">
               <div className="pr-2">
-                <Button onClick={() => setEditState(!editState)}>
+                <button className="btn btn-primary" onClick={() => setEditState(!editState)}>
                   <i className="fa fa-pencil" />
-                </Button>
+                </button>
               </div>
               {/* <Button
                 onClick={() => {
