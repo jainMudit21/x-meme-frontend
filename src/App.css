@@ -148,3 +148,7 @@ div#columns small a {
     transform: rotate(360deg);
   }
 }
+
+.name {
+  color: #282c34;
+}

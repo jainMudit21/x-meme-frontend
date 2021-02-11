@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { baseUrl } from "../constants";
 import isUrl from "is-url";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
 
 function MyForm({ fetchMemes }) {
   const [formState, setFormState] = useState({
@@ -80,6 +81,14 @@ function MyForm({ fetchMemes }) {
         rel="noreferrer"
       >
         Swagger
+      </a>
+      <a
+        className="nav-link"
+        href="https://linkedin.com/in/muditjain21"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <LinkedInIcon />
       </a>
       <button
         className="navbar-toggler"
