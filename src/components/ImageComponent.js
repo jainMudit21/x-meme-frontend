@@ -108,13 +108,13 @@ function Image({ url, set, updateImage, deleteImage }) {
                   <i className="fa fa-pencil" />
                 </Button>
               </div>
-              <Button
+              {/* <Button
                 onClick={() => {
                   if (window.confirm("Are you sure ?")) handleDelete();
                 }}
               >
                 <i className="fa fa-trash" />
-              </Button>
+              </Button> */}
             </div>
             <div>
               <p>By: {url.name}</p>
