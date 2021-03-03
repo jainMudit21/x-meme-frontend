@@ -1,3 +1,20 @@
+Created this project as a task given in 3-month long Crio-winter-of-doing program. 191 Participants got selected out of 1200 individual project entries and I was one of them. See more about this program [here](https://www.crio.do/crio-winter-of-doing).
+
+In Stage 3, in which I will build Digilocker Document Library integration for Startup [sliceit.com](https://www.sliceit.com)
+
+This project is deployed on Netlify and backend is deployed on Heroku.
+Check out [here](https://meme-x.netlify.app).
+
+
+Project details:
+1. You can add/delete/edit your memes.
+2. See available APIs with swagger endpoint.
+3. Check out all memes added by all the users.
+
+Basic web-app with CRUD functionality created using MERN Stack.
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
